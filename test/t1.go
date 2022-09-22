@@ -11,6 +11,7 @@ func main() {
 	c := siteCopy2.NewCopy(context.Background())
 
 	c.Url("https://www.diyiyou.com/", "index.html")
+	c.Url("https://www.diyiyou.com/newgame/", "news.html")
 
 	err := c.Zip("aa.zip")
 
